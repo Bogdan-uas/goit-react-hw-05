@@ -4,7 +4,9 @@ function App() {
 
   return (
     <>
-      <h1>I smoke penis</h1>
+      <div className='main-container'>
+        <h1>I smoke penis</h1>
+      </div>
     </>
   )
 }
