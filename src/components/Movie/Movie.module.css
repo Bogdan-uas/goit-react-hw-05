@@ -1,0 +1,18 @@
+.img {
+    max-width: 500px;
+    min-height: 281px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: black;
+    text-align: center;
+    transition: 500ms ease-in-out;
+}
+
+.title:hover {
+    color: #0d6aff;
+}

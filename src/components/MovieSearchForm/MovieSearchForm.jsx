@@ -17,7 +17,8 @@ export default function MovieSearchForm({ onSearch }) {
     form.reset();
 };
 
-return (
+    return (
+    <div className={css.container}>
     <form className={css.form} onSubmit={handleSubmit}>
     <input
         type="text"
@@ -28,8 +29,9 @@ return (
         placeholder="Search..."
     />
     <button className={css.button} type="submit" title="Search">
-        <IoSearch />
+        <IoSearch className={css.svg} size={16}/>
     </button>
     </form>
+    </div>
 );
 }

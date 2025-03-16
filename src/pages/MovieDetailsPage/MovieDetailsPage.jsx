@@ -39,7 +39,7 @@ export default function MovieDetailsPage() {
     return (
     <div className={css.container}>
     {!loading && (
-        <Link to={backLinkHref.current} className={css.link}>
+        <Link to={backLinkHref.current} className={css.back_link}>
             Go Back
         </Link>
     )}
@@ -50,11 +50,11 @@ export default function MovieDetailsPage() {
     {movie && <MovieDetails movie={movie} />}
     {!loading && (
         <div className={css.info_container}>
-        <Link to="cast" className={css.link}>
+        <Link to="cast" className={css.details_link}>
             Cast
         </Link>
 
-        <Link to="reviews" className={css.link}>
+        <Link to="reviews" className={css.details_link}>
             Reviews
         </Link>
         </div>

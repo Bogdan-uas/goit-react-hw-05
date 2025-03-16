@@ -1,0 +1,25 @@
+.select {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #747bff;
+    border: none;
+    outline: none;
+    height: 29px;
+    border-radius: 8px;
+    transition: 500ms ease-in-out;
+}
+
+.select:hover,
+.select:focus {
+    background-color: #0d6aff;
+}
+
+.option {
+    background-color: #fff;
+    color: black;
+}
+

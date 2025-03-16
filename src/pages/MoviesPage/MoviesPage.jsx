@@ -52,6 +52,7 @@ const onSearch = (value) => {
 
 return (
     <div className={css.container}>
+    <div>
     <p className={css.text}>Enter movie title</p>
     <MovieSearchForm onSearch={onSearch} />
     {loading && <Loader />}
@@ -62,6 +63,7 @@ return (
     {isEmpty && !loading && movies.length < 1 && (
         <p className={css.how_unfortunate_text}>Sorry, but there are no results</p>
     )}
+    </div>
     </div>
 );
 }

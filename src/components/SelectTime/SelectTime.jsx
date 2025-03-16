@@ -7,8 +7,8 @@ export default function SelectTime({ value, handleChangeTime }) {
         onChange={(event) => handleChangeTime(event.target.value)}
         className={css.select}
     >
-    <option value="day">Day</option>
-    <option value="week">Week</option>
+    <option className={css.option} value="day">Day</option>
+    <option className={css.option} value="week">Week</option>
     </select>
 );
 }

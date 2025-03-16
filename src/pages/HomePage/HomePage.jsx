@@ -48,7 +48,7 @@ const handleChangeTime = (value) => {
 };
 
 return (
-    <div>
+    <div className={css.container}>
         <Toaster position="top-right" reverseOrder={false} />
         {error && <ErrorMessage />}
         <h2 className={css.main_homepage_title}>

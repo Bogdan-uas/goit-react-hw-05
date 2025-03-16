@@ -11,7 +11,7 @@ return (
         src={
             cast.profile_path
             ? `${baseURL}/${cast.profile_path}`
-            : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP7Pk3ppYdHyWvhwMLfP1biWPxNg6QzrqgAY-D7h-_Zg&s"
+            : "https://t4.ftcdn.net/jpg/03/01/15/23/360_F_301152308_gGcWIIui6sUjrM5iGZJIHypC1qHGj0XG.jpg"
         }
         />
     </div>

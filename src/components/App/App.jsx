@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <div className='main-container'>
-        <h1>Movie Search</h1>
+        <h1 className="main-title">Movie Search</h1>
         <Navigation />
 
       <Suspense fallback={<div>Loading page...</div>}>

@@ -1,0 +1,14 @@
+.main_homepage_title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.09;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
