@@ -13,9 +13,12 @@ export default function MovieReviewsList({ reviews }) {
             <span>
             Rating:
             {review.author_details.rating > 0 ?
-            " "  + review.author_details.rating :
-            " " + "No rating"
-            } <FaStar />
+            " " + review.author_details.rating :
+            " " + "No rating" 
+            } {review.author_details.rating > 0 ?
+            <FaStar /> :
+            null
+            }
             </span>
             </p>
             <p className={css.description}>{review.content}</p>
