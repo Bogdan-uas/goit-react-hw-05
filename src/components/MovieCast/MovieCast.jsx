@@ -42,7 +42,7 @@ return (
     {casts.length > 0 ? (
         <MovieCreditsList casts={casts} />
     ) : (
-        <p className={css.no_results_message}>Sorry, there are no results...</p>
+        <p className={css.no_results_message}>🥺Sorry, there are no results.🥺</p>
     )}
     </div>
 );

@@ -1,3 +1,5 @@
+import { FaStar } from "react-icons/fa";
+
 import css from './MovieReviewsList.module.css'
 
 export default function MovieReviewsList({ reviews }) {
@@ -9,8 +11,11 @@ export default function MovieReviewsList({ reviews }) {
             <p className={css.list_text}>
             Author's name: {review.author}
             <span>
-            Rating:{" "}
-            {review.author_details.rating}
+            Rating:
+            {review.author_details.rating > 0 ?
+            " "  + review.author_details.rating :
+            " " + "No rating"
+            } <FaStar />
             </span>
             </p>
             <p className={css.description}>{review.content}</p>
